@@ -1,0 +1,23 @@
+.lnk_color {
+  color: white;
+}
+
+.srv-validation-message {
+  color: red;
+}
+
+.body-form {
+  min-height: 700px;
+}
+
+.jumbotron {
+  min-height: 600px;
+}
+
+.movetocenter {
+  margin-top: 300px;
+}
+
+.margin-from-right {
+  margin-right: 50px;
+}
