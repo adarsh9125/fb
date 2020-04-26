@@ -1,6 +1,8 @@
 .App {
   text-align: left;
   font-family: "Proxima Nova Soft", "Helvetica Neue", sans-serif;
+  background: -webkit-linear-gradient(to right, #eecda3, #ef629f);
+  background: linear-gradient(to right, #eecda3, #ef629f);
 }
 
 .App-logo {
@@ -45,12 +47,12 @@
 /* form design code */
 
 .custom-form {
-  max-width: 98%;
+  max-width: 75%;
   background: #f4f7f8;
   margin: 10px auto;
   padding: 20px;
-  box-shadow: 3px 5px 5px #ddd;
-  border-radius: 0;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border-radius: 0.25rem;
   text-align: center;
 }
 

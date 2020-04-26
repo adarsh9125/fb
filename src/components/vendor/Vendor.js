@@ -11,6 +11,7 @@ class Vendor extends React.Component {
         <div className="page_title">
           <h3>Vendor List</h3>
         </div>
+        <hr />
         <Department {...this.props} />
       </div>
     );

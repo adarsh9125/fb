@@ -13,6 +13,7 @@ class Search extends React.Component {
         <div className="page_title">
           <h3>Search Products</h3>
         </div>
+        <hr />
         <Searchform {...this.props} />
       </div>
     );

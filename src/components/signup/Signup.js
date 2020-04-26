@@ -11,6 +11,10 @@ class Signup extends React.Component {
   render() {
     return (
       <div className="body-form custom-form">
+        <div class="page_title">
+          <h3>Vendor Registration</h3>
+        </div>
+        <hr />
         <SignUpform {...this.props} />
       </div>
     );

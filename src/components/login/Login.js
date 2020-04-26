@@ -11,6 +11,7 @@ class Login extends React.Component {
         <div className="page_title">
           <h3>Vendor Login</h3>
         </div>
+        <hr />
         <Loginform {...this.props} />
       </div>
     );

@@ -4,10 +4,6 @@ import Availableproductform from "../../containers/Availableproductform";
 import { Container, Row, Col } from "react-bootstrap";
 
 class Availableproduct extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   componentDidMount() {
     document.title = "Available Products";
     console.log("Available Products:", this.props);
@@ -18,6 +14,7 @@ class Availableproduct extends React.Component {
         <div className="page_title">
           <h3>{decodeURI(this.props.match.params.merchant_name)}</h3>
         </div>
+        <hr />
         <Availableproductform {...this.props} />
       </div>
     );

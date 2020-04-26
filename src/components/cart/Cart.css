@@ -1,6 +1,4 @@
 .cart_form {
-    background: #eecda3;
-    background: -webkit-linear-gradient(to right, #eecda3, #ef629f);
-    background: linear-gradient(to right, #eecda3, #ef629f);
-    min-height: 100vh;
-  }
+  background: -webkit-linear-gradient(to right, #eecda3, #ef629f);
+  background: linear-gradient(to right, #eecda3, #ef629f);
+}

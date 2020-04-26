@@ -18,7 +18,7 @@ class SignUpform extends React.Component {
     this.state = {
       shopname: "",
       phone: "",
-      email:"",
+      email: "",
       city: "",
       address1: "",
       address2: "",
@@ -54,8 +54,6 @@ class SignUpform extends React.Component {
     console.log("thisssss props======>", this.props);
     return (
       <Jumbotron>
-        <span className="signup">SIGN UP</span>
-        <hr />
         <Form onSubmit={(e) => this.handleSubmit(e)}>
           <Form.Group as={Row} controlId="formHorizontalEmail">
             <Col sm={2}></Col>
